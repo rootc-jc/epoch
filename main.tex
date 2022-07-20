@@ -1,0 +1,43 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% Load Thesis Class
+\documentclass{DEIThesis}
+
+\title{REPORT}
+
+\author{Jayachandra Naidu Rajapu}
+\studentId{CS21BTECH11050}
+
+% Advisor
+%
+\mastername{EPOCH}
+\academicYear{2022-2023}
+
+\begin{filecontents*}[overwrite]{\jobname.xmpdata}
+    \Title{REPORT}
+    \Author{Jayachandra Naidu Rajapu}
+    \Language{en-EN}
+    \Keywords{Computer Engineering\sep LaTeX}
+\end{filecontents*}
+
+% Document
+
+\begin{document}
+    % The front matter (Cover, ToC, Abstract, etc...)
+    \frontmatter
+
+    % The main content
+    \mainmatter
+    
+    \include{chapters/01_linear_regression}
+    \include{chapters/02_logistic_regression}
+    \include{chapters/01_introduction}
+    \include{chapters/02_releated}
+    \include{chapters/03_background}
+    \include{chapters/04_analysis}
+    \include{chapters/99_conclusions}
+    
+    % Bibliography, appendix, acknowledges, etc...
+    \backmatter
+\end{document}

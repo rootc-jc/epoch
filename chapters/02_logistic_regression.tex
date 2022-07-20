@@ -1,0 +1,35 @@
+%!TEX root = ../main.tex
+
+\chapter{Logistic Regression}
+\label{chp:logistic}
+
+\section{Introduction}
+As discussed in the previous chapter, we will build a model which will predict
+the outcome based on the model's learning from training dataset. Logistic Regression
+is used for predicting discrete values (only 0 an 1 here) unlike continuos values in Linear Regression. It simply
+calculates the probabilty of the value, calculated from Linear Regression, lying on the extremes and
+output it as 0 and 1.
+
+\section{Model}
+The model is simply a little additional calculation on Linear Regression. We use sigmoid function
+to restrict the outcome between 0 and 1. If the outcome is close to 1 then we treat it as 1 and 0 otherwise.
+
+\subsection{Sigmoid Function}
+
+For restricting the real number value from the outcome of Linear Regression
+between 0 and 1, we use Sigmoid function. It takes real numbers as input and 
+outputs continuos values between 0 and 1.
+
+\begin{equation}
+    Sigmoid(x) = \frac{1}{1+e^{-x}}
+\end{equation}
+
+The graph of Sigmoid function is shown in figure \ref{fig:sigmoid}
+
+\begin{figure}
+    \includegraphics[]{figs/sigmoid_plot.png}
+    \caption{Sigmoid function graph}
+    \label{fig:sigmoid}
+\end{figure}
+
+\subsection{Mathematical Understanding}

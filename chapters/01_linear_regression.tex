@@ -1,0 +1,187 @@
+%!TEX root = ../main.tex
+
+\chapter{Linear Regression}
+\label{chp:linear}
+
+
+\section{Introduction}
+
+\paragraph{}
+Machine learning is predictive modelling. We will create models which will predict outcome based on the model's learning from the training data.
+Sometimes we have to predict the outcome which is a continous variable. Linear regression is a simple machine learning model which establishes a linear relation between data and outcome.
+We will discuss the details of establishing the relation based on training data with detailed mathematics and python code.
+
+\section{Model}
+
+\paragraph{}
+The model is constructed by simply taking some arbitrary coefficients for creating a linear formula
+and updating it repeatedly to reach the required state to predict outcome. Everything is explained further.
+
+\subsection{Terms used frequently}
+The following are the terms which we will be frequently using throughout this discussion:
+
+\vfill
+
+\begin{itemize}
+    \item Features
+    
+    The input data for the model might have more than one parameter which will decide the outcome.
+    Each parameter is called a feature.
+
+    \item Instance
+    
+    The model is mostly trained with a huge set of data. Each individual part of the data with its 
+    features and outcome is called an instance.
+
+\end{itemize}
+
+\subsection{Mathematical understanding}
+Let the dataset have $n$ features. The training dataset contains input $X$, with $m$ instances.
+We will consider $X$ as a set of vectors of $n$ dimensions. So $\vec{X}^{(i)}$ represents $i^{th}$ instance of
+the data.
+\begin{equation}
+    \vec{X}^{(i)} = \sum_{j=1}^{n} \vec{x}_{j}^{(i)}
+\end{equation}
+Here $\vec{x}_{j}^{(i)}$ is value of the $j^{th}$ feature at $i^{th}$ instance.
+We consider vectors here for easy mathematics. The outcome of the $X$ is $y$ which is a set of real numbers. While training, we compare the calculated 
+outcome $y'$ and update the model accordingly.\\
+
+We consider $\vec{W}$ as a vector with dimension $n$. $b$ is a real number.
+\begin{equation}
+    y' = \vec{W} \cdot X + b \label{eq:1}\\
+\end{equation}
+where
+\begin{equation}
+    \vec{W} \cdot X = \begin{bmatrix}\vec{W} \cdot \vec{X}^{(i)} \end{bmatrix}
+    = \begin{bmatrix}
+        \vec{W} \cdot \vec{X^{(1)}} \\
+        \vec{W} \cdot \vec{X^{(2)}} \\
+        \vdots \\
+        \vec{W} \cdot \vec{X^{(m)}} \\
+    \end{bmatrix}
+\end{equation}
+Therefore equation \eqref{eq:1} can be rewritten as
+\begin{equation}
+    y' = \begin{bmatrix}
+        \vec{W} \cdot \vec{X^{(1)}} + b \\
+        \vec{W} \cdot \vec{X^{(2)}} + b \\
+        \vdots \\
+        \vec{W} \cdot \vec{X^{(m)}} + b \\
+    \end{bmatrix}
+\end{equation}
+
+Our mission here is to find the $\vec{W}$ and $b$ from the given data and use them 
+in predicting outcomes for any given input data. For that we should have a deeper and 
+clear understanding of the equations.
+
+\begin{equation}
+    \vec{W} = \begin{bmatrix}
+        w_{1} \\ 
+        w_{2} \\
+        \vdots \\
+        w_{n} \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \begin{split}
+    y'_{i} = 
+        \vec{W} \cdot \vec{X^{(i)}} + b
+        &= 
+    \begin{bmatrix}
+        w_{1} \\ 
+        w_{2} \\
+        \vdots \\
+        w_{n} \\
+    \end{bmatrix}
+    \cdot
+    \begin{bmatrix}
+        x_{1}^{(i)} & x_{2}^{(i)} & \cdots & x_{n}^{(i)}
+    \end{bmatrix} + b \\
+    &= w_{1}x_{1}^{(i)} + w_{2}x_{2}^{(i)} + \cdots + w_{n}x_{n}^{(i)} + b
+\end{split}
+\end{equation}
+
+Here we can understand $w_{i}$ as weight of $i^{th}$ feature. The value of each
+ feature is multiplied by it's weight and added to the total.
+The weight balances the influence of a particular feature on the outcome.
+
+Some features might be generally in higher magnitude, but have a lesser influence
+on the outcome. Obviously their weight will be small and compensate the high magnitude.
+Similarly some features might have small magnitudes but higher influence on the outcome.
+As expected, their weights will be large.
+
+We add $b$ as a constant which will adjust the magnitude of product of weights and features to that of outcome.
+
+\subsection{Finding $W$ and $b$}
+Initially we know nothing about $W$ and $b$. So, we will assume all the weights to be equal to $0$.
+We will compute the $y'$ and compare it $y$, the original outcome. We define a cost function which 
+represents the error in the calculated outcome.
+\begin{equation}
+    J(W,b) = \frac{1}{m}\sum_{i=1}^{m}{(y_i-y'_i)}^{2}
+\end{equation}
+This is called as mean square error. We consider square here to get the absolute value here. We can use other 
+functions like absolue value or 4th power, but square makes the further mathematics simple.
+Our aim is, as discussed above, to find the values of $W$ and $b$ where the cost function $J$
+is minimum. So, we will update the $W$ and $b$ to achieve minimum using gradient descent. Gradient descent is explained briefly in the next section.
+
+We will find the gradient equation for cost function $J$.
+\begin{equation}
+    J'(W,b) = \begin{bmatrix}
+        \frac{df}{dW} \\
+        \frac{df}{db} \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        \frac{1}{m} \sum_{i=1}^{m} -2X^{(i)}(y_i-y_i') \\
+        \frac{1}{m} \sum_{i=1}^{m} -2(y_i-y'_i) \\
+    \end{bmatrix}
+\end{equation}
+Now we update $W$ and $b$ accordingly.
+\begin{equation}
+    W_{new} = W - \alpha \frac{df}{dW}
+\end{equation}
+
+\begin{equation}
+    b_{new} = b - \alpha \frac{df}{db}
+\end{equation}
+
+We use the obtained $W$ and $b$ for predicting outcome.
+
+\subsection{Gradient Descent}
+Gradient descent is an iterative algorithm for finding minimum value of a function.
+The algorithm roughly works in the following steps:
+\begin{enumerate}
+    \item Choose a starting point.
+    \item Calculate the gradient at this point.
+    \item Make a scaled step against the gradient.
+    \item Repeat the steps 2 and 3 until minimum is reached, i.e. the gradient reaches almost 0.
+\end{enumerate}
+
+\subsubsection{Gradient}
+Gradient is slope of the function at a given point in a given direction. Gradient of a n-dimensional 
+function $f(p)$ is given 
+
+\begin{equation}
+    \nabla f(p) = \begin{bmatrix}
+        \frac{\partial f}{\partial x_{1}}(p) \\
+        \vdots \\
+        \frac{\partial f}{\partial x_{n}}(p) \\
+    \end{bmatrix}
+\end{equation}
+
+\subsubsection{Algorithm}
+
+In the $ith$ iteration, 
+\begin{equation}
+    p_{i+1} = p_{i} - \alpha \nabla f(p_{i})
+\end{equation}
+Where $\alpha$ is the learning rate which controls the step size. The learning rate should be chosen
+carefully according to number of iterations as
+\begin{itemize}
+    \item Small learning rate might make the algorithm stop, i.e reach the maximum iteration, before
+    reaching the minimum.
+    \item Large learning rate might make the algorithm jump too much and thus might skip the minimum.
+\end{itemize}
+
+\section{Questions for curiosity}
