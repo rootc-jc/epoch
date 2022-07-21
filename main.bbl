@@ -16,49 +16,5 @@
   {}
 \endgroup
 
-
-\refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{alecci2021development}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=38c8f466cc0b3083ae85d43699618319}{%
-           family={Alecci},
-           familyi={A\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod}}}%
-        {{hash=379066b71b6b5d7efb3e7645bc230e56}{%
-           family={Baldo},
-           familyi={B\bibinitperiod},
-           given={Tommaso},
-           giveni={T\bibinitperiod}}}%
-        {{hash=d351eb83f567ba92eafd762214ebe537}{%
-           family={Martinelli},
-           familyi={M\bibinitperiod},
-           given={Luca},
-           giveni={L\bibinitperiod}}}%
-        {{hash=c987daef93b1628ac43280e7ab695738}{%
-           family={Ziroldo},
-           familyi={Z\bibinitperiod},
-           given={Elia},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{2212ce417f148644ac88371803bd6f31}
-      \strng{fullhash}{df8adce385e39b9cb1d86373d7e35e83}
-      \strng{bibnamehash}{2212ce417f148644ac88371803bd6f31}
-      \strng{authorbibnamehash}{2212ce417f148644ac88371803bd6f31}
-      \strng{authornamehash}{2212ce417f148644ac88371803bd6f31}
-      \strng{authorfullhash}{df8adce385e39b9cb1d86373d7e35e83}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{CLEF (Working Notes)}
-      \field{title}{Development of an IR System for Argument Search.}
-      \field{year}{2021}
-      \field{pages}{2302\bibrangedash 2318}
-      \range{pages}{17}
-    \endentry
-  \enddatalist
-\endrefsection
 \endinput
 

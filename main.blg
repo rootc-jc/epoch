@@ -1,17 +1,9 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
-[0] Config.pm:307> INFO - Logfile is 'main.blg'
-[154] biber:322> INFO - === Wed Jul 20, 2022, 16:14:02
-[182] Biber.pm:415> INFO - Reading 'main.bcf'
-[299] Biber.pm:943> INFO - Found 1 citekeys in bib section 0
-[323] Biber.pm:4256> INFO - Processing section 0
-[324] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[324] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[344] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
-[346] bibtex.pm:1653> INFO - LaTeX decoding ...
-[350] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
-[418] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[418] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[418] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[419] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[423] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[425] bbl.pm:755> INFO - Output to main.bbl
+[2] Config.pm:307> INFO - Logfile is 'main.blg'
+[199] biber:322> INFO - === Thu Jul 21, 2022, 14:02:01
+[234] Biber.pm:415> INFO - Reading 'main.bcf'
+[392] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[406] Utils.pm:293> WARN - The file 'main.bcf' does not contain any citations!
+[427] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[427] bbl.pm:755> INFO - Output to main.bbl
+[427] Biber.pm:128> INFO - WARNINGS: 1

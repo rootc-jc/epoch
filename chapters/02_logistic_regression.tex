@@ -10,7 +10,7 @@ is used for predicting discrete values (only 0 an 1 here) unlike continuos value
 calculates the probabilty of the value, calculated from Linear Regression, lying on the extremes and
 output it as 0 and 1.
 
-\section{Model}
+\section{Model} \label{sec:log_model}
 The model is simply a little additional calculation on Linear Regression. We use sigmoid function
 to restrict the outcome between 0 and 1. If the outcome is close to 1 then we treat it as 1 and 0 otherwise.
 
@@ -33,3 +33,19 @@ The graph of Sigmoid function is shown in figure \ref{fig:sigmoid}
 \end{figure}
 
 \subsection{Mathematical Understanding}
+As seen in chapter \ref{chp:linear} and discussed in section \ref{sec:log_model}, 
+
+\begin{equation}
+    y'_i = \frac{1}{1 + e^{-\vec{W} \cdot \vec{X_{(i)}}}}
+\end{equation}
+
+\subsection{Finding $W$ and $b$}
+We use a little more math here to make the computation easier.
+We define cost function in a slightly different way
+
+\begin{equation}
+    h_i = {(y'_i)}^{y_i}{(1-y'_i)}^{1-y_{i}}
+\end{equation}
+
+If you observe keenly and try to understand, the $h$ value gives the absolute difference between
+the calculated outcome and original outcome.
