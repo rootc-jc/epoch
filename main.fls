@@ -478,11 +478,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newpx/zplsyc.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
-OUTPUT /home/rootc-jc/AI and ML/epoch/main.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newpx/zplmi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newpx/NewPXMI_gnu.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newpx/NewPXMI.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/stxscr.tfm
+OUTPUT /home/rootc-jc/AI and ML/epoch/main.toc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-t1.tfm
 INPUT /home/rootc-jc/AI and ML/epoch/main.lof
 INPUT /home/rootc-jc/AI and ML/epoch/main.lof
 OUTPUT /home/rootc-jc/AI and ML/epoch/main.lof
@@ -506,7 +507,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-sc-t1
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ts1-qplr.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newpx/zplsy.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newpx/pxsys.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm

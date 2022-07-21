@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.27)  21 JUL 2022 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.27)  21 JUL 2022 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1249,17 +1249,17 @@ LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 28.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 28.
-<res/lomgo.png, id=94, 1115.16624pt x 1113.15875pt>
+<res/lomgo.png, id=98, 1115.16624pt x 1113.15875pt>
 File: res/lomgo.png Graphic file (type png)
 <use res/lomgo.png>
 Package pdftex.def Info: res/lomgo.png  used on input line 28.
 (pdftex.def)             Requested size: 677.17265pt x 675.96849pt.
-<res/epoch.jpeg, id=96, 200.75pt x 200.75pt>
+<res/epoch.jpeg, id=100, 200.75pt x 200.75pt>
 File: res/epoch.jpeg Graphic file (type jpg)
 <use res/epoch.jpeg>
 Package pdftex.def Info: res/epoch.jpeg  used on input line 28.
 (pdftex.def)             Requested size: 85.35896pt x 85.35826pt.
-<res/logo.png, id=97, 4306.0875pt x 1114.1625pt>
+<res/logo.png, id=101, 4306.0875pt x 1114.1625pt>
 File: res/logo.png Graphic file (type png)
 <use res/logo.png>
 Package pdftex.def Info: res/logo.png  used on input line 28.
@@ -1309,18 +1309,19 @@ File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 16.
  (/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
-))
+) [7])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [7] [8
-
-
-] (/home/rootc-jc/AI and ML/epoch/main.lof)
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 28.
+ [8] (/home/rootc-jc/AI and ML/epoch/main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
  [11
+
+
 
 
 ] [12
@@ -1395,8 +1396,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--48
 
  []
 
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 76.
 [2]
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 14.4pt on input line 116.
@@ -1434,7 +1433,7 @@ LaTeX Font Info:    Font shape `T1/zpltlf/b/sc' will be
 
 ]
 Chapter 2.
-<figs/sigmoid_plot.png, id=258, 462.528pt x 346.896pt>
+<figs/sigmoid_plot.png, id=263, 462.528pt x 346.896pt>
 File: figs/sigmoid_plot.png Graphic file (type png)
 <use figs/sigmoid_plot.png>
 Package pdftex.def Info: figs/sigmoid_plot.png  used on input line 30.
@@ -1461,7 +1460,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 42.
 
-) [8 </home/rootc-jc/AI and ML/epoch/figs/sigmoid_plot.png>] [9] [10
+[8 </home/rootc-jc/AI and ML/epoch/figs/sigmoid_plot.png>]) [9] [10
 
 
 
@@ -1481,24 +1480,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 795702F7933E4620200ECE39D88FE32E;1356.
+(rerunfilecheck)             Checksum: FF2E00371450294CA166797F3E541453;1432.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41805 strings out of 481239
- 728307 string characters out of 5920377
+ 41811 strings out of 481239
+ 728387 string characters out of 5920377
  1353621 words of memory out of 5000000
- 56260 multiletter control sequences out of 15000+600000
+ 56261 multiletter control sequences out of 15000+600000
  611592 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,23n,100p,842b,2508s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,23n,100p,842b,3733s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on "/home/rootc-jc/AI and ML/epoch/main.pdf" (29 pages, 342940 bytes).
+Output written on "/home/rootc-jc/AI and ML/epoch/main.pdf" (29 pages, 345462 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
- 78 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 364 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

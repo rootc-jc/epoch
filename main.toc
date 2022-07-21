@@ -47,6 +47,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}Finding $W$ and $b$}{8}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Questions for Curiosity}{9}{section.2.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{References}{11}{section*.13}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Acknowledgments}{11}{section*.14}%

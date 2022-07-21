@@ -48,4 +48,45 @@ We define cost function in a slightly different way
 \end{equation}
 
 If you observe keenly and try to understand, the $h$ value gives the absolute difference between
-the calculated outcome and original outcome.
+the calculated outcome and original outcome. The original outcome is either 0 or 1. We try to spread $y'$
+in such a way that the outcome of a particular instance will be close to 0 or 1 depending one
+the original outcome.
+
+As we are going to use gradient descent, we will be
+calculating gradient in every round. Calculating gradient for $h$ itself is a little heavy task for computation.
+We will take $\log(h)$ to make it easier.
+
+So we will be defining the cost function as follows
+
+\begin{equation}
+    J(W,b) = \frac{1}{m} \sum_{i=1}^{m}\log{h_i}
+\end{equation}
+
+The gradient for cost function $J$
+
+\begin{equation}
+    \nabla J(W,b) = \begin{bmatrix}
+        \frac{\partial J}{\partial W} \\
+        \frac{\partial J}{\partial b}
+    \end{bmatrix}
+    = \begin{bmatrix}
+        \frac{1}{m} \sum_{i=1}^{m}X^{(i)}(y_i - y'_i) \\
+        \frac{1}{m} \sum_{i=1}^{m}(y_i - y'_i) 
+    \end{bmatrix}
+\end{equation}
+
+Now we update $W$ and $b$ accordingly
+
+\begin{equation}
+    W_{new} = W - \alpha \frac{\partial J}{\partial W}
+\end{equation}
+
+\begin{equation}
+    b_{new} = b - \alpha \frac{\partial J}{\partial b}
+\end{equation}
+
+We use the obtained $W$ and $b$ for predicting outcome. Notice here that $y'$
+contains real number between 0 and 1. We will replace all the values in $y'$ greater than $0.5$
+with 1 and others with 0.
+
+\section{Questions for Curiosity}
