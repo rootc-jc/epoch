@@ -49,6 +49,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Questions for Curiosity}{9}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{11}{section*.13}%
+\contentsline {chapter}{\numberline {3}Decision Trees}{11}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgments}{11}{section*.14}%
+\contentsline {section}{\numberline {3.1}Introduction}{11}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Model}{11}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Mathematical Understanding}{11}{subsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Questions For Curiosity}{12}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{13}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgments}{13}{section*.14}%

@@ -387,6 +387,8 @@ INPUT /home/rootc-jc/AI and ML/epoch/chapters/01_linear_regression.aux
 INPUT /home/rootc-jc/AI and ML/epoch/chapters/01_linear_regression.aux
 INPUT /home/rootc-jc/AI and ML/epoch/chapters/02_logistic_regression.aux
 INPUT /home/rootc-jc/AI and ML/epoch/chapters/02_logistic_regression.aux
+INPUT /home/rootc-jc/AI and ML/epoch/chapters/03_decision_trees.aux
+INPUT /home/rootc-jc/AI and ML/epoch/chapters/03_decision_trees.aux
 OUTPUT /home/rootc-jc/AI and ML/epoch/main.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newpx/omlnpxmi.fd
@@ -569,6 +571,9 @@ INPUT /home/rootc-jc/AI and ML/epoch/figs/sigmoid_plot.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newpx/zplsy.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newpx/pxsys.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
+OUTPUT /home/rootc-jc/AI and ML/epoch/chapters/03_decision_trees.aux
+INPUT /home/rootc-jc/AI and ML/epoch/chapters/03_decision_trees.tex
+INPUT /home/rootc-jc/AI and ML/epoch/chapters/03_decision_trees.tex
 INPUT /home/rootc-jc/AI and ML/epoch/frontmatter/thanks.tex
 INPUT /home/rootc-jc/AI and ML/epoch/frontmatter/thanks.tex
 INPUT /home/rootc-jc/AI and ML/epoch/main.aux
@@ -576,6 +581,8 @@ INPUT /home/rootc-jc/AI and ML/epoch/chapters/01_linear_regression.aux
 INPUT /home/rootc-jc/AI and ML/epoch/chapters/01_linear_regression.aux
 INPUT /home/rootc-jc/AI and ML/epoch/chapters/02_logistic_regression.aux
 INPUT /home/rootc-jc/AI and ML/epoch/chapters/02_logistic_regression.aux
+INPUT /home/rootc-jc/AI and ML/epoch/chapters/03_decision_trees.aux
+INPUT /home/rootc-jc/AI and ML/epoch/chapters/03_decision_trees.aux
 INPUT /home/rootc-jc/AI and ML/epoch/main.out
 INPUT /home/rootc-jc/AI and ML/epoch/main.out
 INPUT /home/rootc-jc/AI and ML/epoch/main.run.xml

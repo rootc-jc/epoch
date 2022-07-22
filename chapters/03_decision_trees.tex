@@ -1,0 +1,41 @@
+%!TEX root = ../main.tex
+
+\chapter{Decision Trees}
+\label{chp:decision}
+
+\section{Introduction}
+Decision Trees are simple but effective models which can do both classification
+and regression. Unlike logistic regression, it can classify into more than two classes.
+They are easy to understand visually and can be used explicitly to represent decisions.
+
+\section{Model}
+We basically construct a binary tree, with every node containing a statement about a feature.
+The node gives branches based on the truth value of the statement. The child might be a node containing
+another statement or a leaf with a class label (in case of classification) or a leaf with a value (or range) in case of
+regression. Decision Tree is a very wide concept and contains many algorithms and types of implementation.
+
+\subsection{Mathematical Understanding}
+As discussed, the decision tree outputs discrete values. For regression problems, we
+use those discrete values as ranges and convert them to continuos values. So the key idea is to
+split the n-dimensional space into regions, which we can further decide upon.
+
+In technical terms we follow a recursive greedy, top-down, partioning approach.
+We have a parent partion $R_p$ which we decide to split further.
+Let $S_p(j,t)$ be a split in $R_p$ such that
+
+\begin{equation}
+    S_p(j,t) =  ( \{ X | x_j<t,X \in R_p \} , \{ X | x_j\geq t,X \in R_p \} )
+\end{equation}
+
+Our aim here is to make sure that we achieve good classification with each split.
+For that we will do some math.
+
+Define $L(R)$ as the loss on $R$. Here loss means the presence of instances belonging
+to other classes compared to the major class. There are many ways of defining this loss.
+Our aim is to loss is minimum at every split.We can maximize the error before and 
+after split to achieve that. For that
+$L(R_p)-(L(R_1)+L(R_2))$
+ should be maximum.
+
+
+\section{Questions For Curiosity}
