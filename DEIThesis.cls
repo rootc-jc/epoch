@@ -10,6 +10,10 @@
 \ProvidesClass{DEIThesis}[DEI Thesis Class]
 
 
+\usepackage{amsmath}
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
+
 
 % -- GENERAL SETUP --
 

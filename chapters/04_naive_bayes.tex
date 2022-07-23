@@ -8,10 +8,31 @@ Naive Bayes, as the name suggests, is an application of Bayes' theorem with stro
 We assume a strong independence between the features. We use a very different approach
 in Naive Bayes for building the model.
 
-\section{Mathematical Understanding}
+\section{Model}
 Consider there are $K$ classes the model has to classify the input into.
 We need $\Pr{(C_k | X)}$ for every class $C_k$.
 
 \begin{equation}
     \Pr (C_k | X) = \frac{\Pr (C_k) \Pr (X|C_k)}{\Pr (X)}
+\end{equation}
+
+The numerator represents joint probability i.e. $ \Pr (C_k,x_1,x_2, \cdots ,x_n) $.
+
+\begin{equation}
+    \Pr (x_1,x_2, \cdots ,x_n,C_k) = \Pr (x_1|x_2, \cdots ,x_n,C_k)\Pr (x_2|x_3, \cdots ,x_n,C_k) \cdots \Pr (x_n|C_k) \Pr (C_k)
+\end{equation}
+We assume strong independence between features. So
+
+\begin{equation}
+    \Pr (x_1,x_2, \cdots ,x_n,C_k) = \Pr(x_1|C_k) \Pr(x_2|C_k) \cdots \Pr(x_n|C_k) \Pr(C_k)
+\end{equation}
+
+\begin{equation}
+    \Pr (C_k | X) \propto \prod_{i=1}^{n} \Pr (x_i|C_k) 
+\end{equation}
+
+Now from this
+
+\begin{equation}
+    y' = \argmax_{k \in \{1,2, \cdots ,n\}} \Pr(C_k) \prod_{i=1}^{n} \Pr(x_i|C_k)
 \end{equation}
