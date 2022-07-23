@@ -59,6 +59,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Questions For Curiosity}{12}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{13}{section*.13}%
+\contentsline {chapter}{\numberline {4}Naive Bayes}{13}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgments}{13}{section*.14}%
+\contentsline {section}{\numberline {4.1}Introduction}{13}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Mathematical Understanding}{13}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{15}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgments}{15}{section*.14}%

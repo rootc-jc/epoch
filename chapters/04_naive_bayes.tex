@@ -1,0 +1,17 @@
+%!TEX root = ../main.tex
+
+\chapter{Naive Bayes}
+\label{chp:bayes}
+
+\section{Introduction}
+Naive Bayes, as the name suggests, is an application of Bayes' theorem with strong assumptions.
+We assume a strong independence between the features. We use a very different approach
+in Naive Bayes for building the model.
+
+\section{Mathematical Understanding}
+Consider there are $K$ classes the model has to classify the input into.
+We need $\Pr{(C_k | X)}$ for every class $C_k$.
+
+\begin{equation}
+    \Pr (C_k | X) = \frac{\Pr (C_k) \Pr (X|C_k)}{\Pr (X)}
+\end{equation}
