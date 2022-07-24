@@ -65,6 +65,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Model}{13}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{15}{section*.13}%
+\contentsline {chapter}{\numberline {5}k Nearest Neighbours}{15}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgments}{15}{section*.14}%
+\contentsline {section}{\numberline {5.1}Introduction}{15}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Model}{15}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Mathematics}{15}{subsection.5.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Questions For Curiosity}{16}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{17}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgments}{17}{section*.14}%

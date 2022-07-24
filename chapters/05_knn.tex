@@ -1,0 +1,31 @@
+%!TEX root = ../main.tex
+
+\chapter{k Nearest Neighbours}
+\label{chp:knn}
+
+\section{Introduction}
+
+The k Nearest Neighbours (k-nn) evaluates the outcome by considering
+$k$ (user given) neighbours. It can be used for classification and regression.
+Fot classification, it takes the votes of neighbours and for regression, it outputs
+the average of the neighbours. As we take distance as a measure for considering neighbours,
+normalising the features will improve accuracy.
+
+\section{Model}
+
+The training just involves storing training dataset. Whenever a test dataset is given,
+the necessary calculations are made and outcome is computed.
+
+\subsection{Mathematics}
+The distance is calculated using
+\begin{equation}
+    d_{l} = \sqrt[]{\sum_{i=1}^{n}(x_i-x_{i(l)})^2}
+\end{equation}
+
+where $x_i$ are the scaled feature values.
+The distances are calculated and arranged in ascending order. The most repeated
+class in the first $k$ distance is given as the outcome.
+
+For regression, the average of first $k$ neighbours will be given as outcome.
+
+\section{Questions For Curiosity}
