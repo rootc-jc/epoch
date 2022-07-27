@@ -1,0 +1,48 @@
+
+\chapter{k Means Clustering}
+\label{chp:kmeans}
+
+\section{Introduction}
+$k$ means clustering is used to partion $m$ observations into $k$ clusters.
+It is an unsupervised learning algorithm.
+
+\section{Model}
+The model works on te aim to divide the instances (instance is called observation further, as it makes more sense) into $k$ classes and
+minimise the within-cluster variance.
+
+\subsection{Mathematical Understanding}
+We have 
+\begin{align*}
+    X = \begin{bmatrix}
+        X^{(1)} & X^{(2)} & \cdots & X^{(m)}
+    \end{bmatrix}
+\end{align*}
+
+We generate $k$ means arbitrarily.
+
+\begin{align*}
+    \mu_1^{(1)} \; \mu_2^{(1)} \; \mu_3^{(1)} \; \cdots \; \mu_k^{(1)}
+\end{align*}
+
+$\mu$ is a vetor of $n$ dimensity.
+We assign each observation a cluster based on the nearest mean.
+After the assignment, we go through a series of iterations as following.
+
+Assignment step:
+\begin{align}
+    S_i^{(t)} = \bigl\{ X^{(p)} : {\bigl\|X^{(p)} - \mu_i^{(t)} \bigr\|}^2
+    \leq {\bigl\|x_p - \mu_j^{(t)} \bigr\|}^2
+    \forall j, 1\leq j \leq k
+    \bigr\}
+\end{align}
+
+We recalculate the mean of the clustered observations.
+
+Update step:
+\begin{equation}
+    m_i^{(t+1)} = \frac{1}{\lvert S_i^{(t)} \rvert } \sum_{X^{(j)} \in S_i^{(t)}} X^{(j)}
+\end{equation}
+
+Since this is a converging algorithm, it will halt when the means no longer change. We will use various other versions of it to deal with this problem.
+
+\section{Questions For Curiosity}
