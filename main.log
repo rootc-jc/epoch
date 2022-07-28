@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.27)  28 JUL 2022 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.27)  28 JUL 2022 21:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1066,7 +1066,7 @@ Package csquotes Info: ... found 'babel' package.
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count456
 \l__pdf_internal_box=\box66
-) (/home/rootc-jc/AI and ML/epoch/main.aux (/home/rootc-jc/AI and ML/epoch/chapters/01_linear_regression.aux) (/home/rootc-jc/AI and ML/epoch/chapters/02_logistic_regression.aux) (/home/rootc-jc/AI and ML/epoch/chapters/03_decision_trees.aux) (/home/rootc-jc/AI and ML/epoch/chapters/04_naive_bayes.aux) (/home/rootc-jc/AI and ML/epoch/chapters/05_knn.aux) (/home/rootc-jc/AI and ML/epoch/chapters/06_kmeans.aux))
+) (/home/rootc-jc/AI and ML/epoch/main.aux (/home/rootc-jc/AI and ML/epoch/chapters/01_linear_regression.aux) (/home/rootc-jc/AI and ML/epoch/chapters/02_logistic_regression.aux) (/home/rootc-jc/AI and ML/epoch/chapters/03_decision_trees.aux) (/home/rootc-jc/AI and ML/epoch/chapters/04_naive_bayes.aux) (/home/rootc-jc/AI and ML/epoch/chapters/05_knn.aux) (/home/rootc-jc/AI and ML/epoch/chapters/06_kmeans.aux) (/home/rootc-jc/AI and ML/epoch/chapters/07_random_forest.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 26.
@@ -1249,17 +1249,17 @@ LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 28.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 28.
-<res/lomgo.png, id=170, 1115.16624pt x 1113.15875pt>
+<res/lomgo.png, id=182, 1115.16624pt x 1113.15875pt>
 File: res/lomgo.png Graphic file (type png)
 <use res/lomgo.png>
 Package pdftex.def Info: res/lomgo.png  used on input line 28.
 (pdftex.def)             Requested size: 677.17265pt x 675.96849pt.
-<res/epoch.jpeg, id=172, 200.75pt x 200.75pt>
+<res/epoch.jpeg, id=184, 200.75pt x 200.75pt>
 File: res/epoch.jpeg Graphic file (type jpg)
 <use res/epoch.jpeg>
 Package pdftex.def Info: res/epoch.jpeg  used on input line 28.
 (pdftex.def)             Requested size: 85.35896pt x 85.35826pt.
-<res/logo.png, id=173, 4306.0875pt x 1114.1625pt>
+<res/logo.png, id=185, 4306.0875pt x 1114.1625pt>
 File: res/logo.png Graphic file (type png)
 <use res/logo.png>
 Package pdftex.def Info: res/logo.png  used on input line 28.
@@ -1433,7 +1433,7 @@ LaTeX Font Info:    Font shape `T1/zpltlf/b/sc' will be
 
 ]
 Chapter 2.
-<figs/sigmoid_plot.png, id=354, 462.528pt x 346.896pt>
+<figs/sigmoid_plot.png, id=369, 462.528pt x 346.896pt>
 File: figs/sigmoid_plot.png Graphic file (type png)
 <use figs/sigmoid_plot.png>
 Package pdftex.def Info: figs/sigmoid_plot.png  used on input line 30.
@@ -1506,42 +1506,53 @@ Chapter 6.
 
 
 ]) [18]
+\openout2 = `chapters/07_random_forest.aux'.
 
-LaTeX Warning: Empty bibliography on input line 46.
+ (/home/rootc-jc/AI and ML/epoch/chapters/07_random_forest.tex
+Chapter 7.
+) [19
 
-(/home/rootc-jc/AI and ML/epoch/frontmatter/thanks.tex) [19
 
 
 
+] [20
+
+
+
+]
+
+LaTeX Warning: Empty bibliography on input line 47.
+
+(/home/rootc-jc/AI and ML/epoch/frontmatter/thanks.tex) [21
 
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
- (/home/rootc-jc/AI and ML/epoch/main.aux (/home/rootc-jc/AI and ML/epoch/chapters/01_linear_regression.aux) (/home/rootc-jc/AI and ML/epoch/chapters/02_logistic_regression.aux) (/home/rootc-jc/AI and ML/epoch/chapters/03_decision_trees.aux) (/home/rootc-jc/AI and ML/epoch/chapters/04_naive_bayes.aux) (/home/rootc-jc/AI and ML/epoch/chapters/05_knn.aux) (/home/rootc-jc/AI and ML/epoch/chapters/06_kmeans.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+ (/home/rootc-jc/AI and ML/epoch/main.aux (/home/rootc-jc/AI and ML/epoch/chapters/01_linear_regression.aux) (/home/rootc-jc/AI and ML/epoch/chapters/02_logistic_regression.aux) (/home/rootc-jc/AI and ML/epoch/chapters/03_decision_trees.aux) (/home/rootc-jc/AI and ML/epoch/chapters/04_naive_bayes.aux) (/home/rootc-jc/AI and ML/epoch/chapters/05_knn.aux) (/home/rootc-jc/AI and ML/epoch/chapters/06_kmeans.aux) (/home/rootc-jc/AI and ML/epoch/chapters/07_random_forest.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FB1B94885EE527286F8B00966D9B34A2;2560.
+(rerunfilecheck)             Checksum: 7E6C4278A691CABD7209523336B95678;2723.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41921 strings out of 481239
- 730985 string characters out of 5920377
- 1364508 words of memory out of 5000000
- 56308 multiletter control sequences out of 15000+600000
+ 41943 strings out of 481239
+ 731618 string characters out of 5920377
+ 1367185 words of memory out of 5000000
+ 56317 multiletter control sequences out of 15000+600000
  611592 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,23n,100p,842b,3714s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on "/home/rootc-jc/AI and ML/epoch/main.pdf" (37 pages, 364704 bytes).
+Output written on "/home/rootc-jc/AI and ML/epoch/main.pdf" (39 pages, 367258 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 435 compressed objects within 5 object streams
- 118 named destinations out of 1000 (max. 500000)
- 365 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 389 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -85,6 +85,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.3}Questions For Curiosity}{18}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{19}{section*.13}%
+\contentsline {chapter}{\numberline {7}Random Forests}{19}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgments}{19}{section*.14}%
+\contentsline {section}{\numberline {7.1}Inroduction}{19}{section.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Model}{19}{section.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{21}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgments}{21}{section*.14}%

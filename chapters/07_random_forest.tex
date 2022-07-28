@@ -1,0 +1,22 @@
+\chapter{Random Forests}
+\label{chp:forests}
+
+\section{Inroduction}
+Random Forests is a method for classification and regression that operates by
+constructing multiple decision trees. Refer chapter \ref{chp:decision} for details
+on decision trees. For classification, it outputs the class given tby  most trees.
+For regression, it outputs the average of all trees.
+
+\section{Model}
+To improve the efficiency of the model, we use a technique called bagging.
+Bagging creates a sample training set from the given training set repeatedly
+(B times),
+with replacement.
+
+For $b=1,\cdots , B$, a regression or classification tree $f_b$ is trained on $X_b,Y_b$.
+
+\begin{equation}
+    \hat{f} = \frac{1}{B} \sum_{b=1}^{B} f_b(X')
+\end{equation}
+
+where $X'$ is the prediction sample.
